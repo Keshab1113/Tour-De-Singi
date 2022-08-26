@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Tour De </span>Singi</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">places</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+<section class="home" id="home">
+    <div class="content">
+        <h3>the village of singi</h3>
+        <p>this east burdwan village, just about four hours from bardhaman station, is ideal for a tranquil weekend getaway.</p>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="vid-1.mp4"></span>
+        <span class="vid-btn" data-src="vid-2.mp4"></span>
+        <span class="vid-btn" data-src="vid-3.mp4"></span>
+        <span class="vid-btn" data-src="vid-4.mp4"></span>
+        <span class="vid-btn" data-src="vid-5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="book-img.svg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="river.jpg" alt="">
+            <div class="content">
+                <h3> How to reach ( Singi ) </h3>
+                <p>Singi is 133 km north of Kolkata and 60 km northeast of Burdwan town. It takes about four hours to reach by road.
+                  (   1   ) Among the many routes to reach Singi, most advisable is via Memari through Durgapur Expressway continuing on to Satgachia, Kusumgram, Manteswar, Maldanga, Mejhiari and Singi crossing
+
+                  (   2   ) The nearest railway station is Katwa (18 km away) and the best train to reach is the Malda Intercity Express that leaves from Howrah around 3pm and reaches Katwa around 6pm. The same train leaves for Howrah in the morning around 10am 
+
+                  (   3   ) The Santiniketan homestay is the best option to stay at Singi. If given prior notice, the homestay can arrange transportation to and from Katwa station.</li>
+                   You can spend a relaxing weekend at Singi at any time of the year, but monsoon and winter are the most popular seasons.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="santi.jpg" alt="">
+            <div class="content">
+                <h3>Santiniketan Home Stay</h3>
+                <p>When in Singi, you can opt to stay at Santiniketan, a small homestay run by Samrat and Sudeshna Banerjee. The well-appointed three-storied house opens to a small and beautifully maintained garden, shaded by a variety of fruit and flower-bearing trees. There is also a small paved pond within the premises. A viewing deck on the top floor offers views of the lush green landscape. The food is simple and The fish is from the pond, the ghee and milk are homemade and the spices are also ground at home. Breakfast often features local delicacies like petai porota. Sudeshna is an excellent cook and Samrat is a natural at the art of conversing. He takes on the role of local expert and tour planner effortlessly. Evenings can be spent stargazing while sipping on a tea while taking in the full experience of the rural setting, without the roar of the television, gadgets or traffic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="kasi.jpg" alt="">
+            <div class="content">
+                <h3>The Home of poet Kashiram Das</h3>
+                <p>Singi is known in history as the birthplace of poet Kashiram Das, who was the first to translate the Mahabharata into Bengali some 400 years ago. From the local narrative written by the poet’s brother Gadadhar Das, it is understood that the family lived here for 10 generations.While there isn’t documented proof, a crumbling house inside the village, special to the Kashiram Das Memorial Committee, is believed to be Das’ ancestral home. The group has strived to keep parts of the house intact and every year a five-day fair is held from the 21st day of Poush in the local library named after the poet.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Library.jpg" alt="">
+            <div class="content">
+                <h3> Library </h3>
+                <p>Singi Kasiram Das library was built in the memory of Kasiram Das(bengali retelling of the '' Mahabharata'').The library is located in the village singi .The library have many books in collection, including old books with historical value.Books in the collection are mostly in Bengali and English .The library receives daily newspapers and periodicals. It also have a special collection for children and teenagers. The library provides a separate reading facilities. The library is open three days in a week. You can sit there and read books and you can also take home as a member.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="temp.jpg" alt="">
+            <div class="content">
+                <h3> The three temples of Chandra family at Sribati </h3>
+                <p>The temples of Sribati, about two kilometres away, are fine examples of 19th-century terracotta art in Bengal temples. Among the many temples of the village, the most famous are the three temples of the local Chandra family who were once wealthy traders, doing business along the Hooghly river. A Pancha Ratna temple, with a five-pinnacled structure, is flanked by two Rekha Deul temples. </p>
+        </div>
+    </div>
+        <div class="box">
+            <img src="tera.jpg" alt="">
+            <div class="content">
+                <h3> Terracotta plaques and the foundation stone of the temples of the Chandra family at Sribati </h3>
+                <p>One of the temples has a foundation plaque, which states that the Chandra family built these temples dedicated to Shri Bisheshwar, Bholanath and Chandreshwar in 1836. The temples’ terracotta plaques depict gods and goddesses, as well as everyday scenes such as boats, war scenes and figures who seem to be foreigners. 
+                Among the other temples to see in Sribati is the two-storied flat-roofed Raghunatha temple, a  five-pinnacled Chandreshwar Temple built in 1802 and a Charchala Maheshwar temple.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>When In Singi, You Can Opt To Stay At Santiniketan, A Small Homestay, The Well-Appointed Three-Storied House Opens To A Small And Beautifully Maintained Garden.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>All types of food are available in this village. like bengali food, chinese food etc... </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>in this village don't have any health issue because here have a well government hospital.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>This East Burdwan Village, Just About Four Hours From Bardhaman Station, Is Ideal For A Tranquil Weekend Getaway.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>The Nearest Railway Station Is Katwa (18 Km Away) And The Best Train To Reach Is The Malda Intercity Express That Leaves From Howrah Around 3pm And Reaches Katwa Around 6pm.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>You can visit all the places in this village, and outside of the village like Sribati village etc....</p>
+        </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="siv1.jpg" alt="">
+            <div class="content">
+                <h3>LORD SHIVA mandir</h3>
+                <p>BURO SHIVTOLA.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="bazar.jpg" alt="">
+            <div class="content">
+                <h3>Bazar Durga Mandir</h3>
+                <p>This is Devi Durga Mandir.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="kobi.jpg" alt="">
+            <div class="content">
+                <h3>Mahakabi Kashiram das</h3>
+                <p>translate the Mahabharata into Bengali.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="jol.jpeg" alt="">
+            <div class="content">
+                <h3>Shiva Linga</h3>
+                <p>Lord Shiva Mandir.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="gajon.jpg" alt="">
+            <div class="content">
+                <h3>Gajon Uthshav</h3>
+                <p>This is the festivle of lord shiva in the bengali month of chaitra. </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="morok.jpeg" alt="">
+            <div class="content">
+                <h3>Morok tola</h3>
+                <p>This is an another temple of lord shiva.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="khetro.jpeg" alt="">
+            <div class="content">
+                <h3>Khetropal tola</h3>
+                <p>This is the best place for conversation in evening.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="temp.jpg" alt="">
+            <div class="content">
+                <h3>Temple</h3>
+                <p>In Sribati.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="moth.jpeg" alt="">
+            <div class="content">
+                <h3>Pujor Bari</h3>
+                <p>the oldest durga mandir at singi.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="dip.jpeg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="pro.jpeg" alt="">
+            <div class="content">
+            </div>
+        </div>
+        <div class="box">
+            <img src="anan.jpeg" alt="">
+            <div class="content">
+                <h3>Anandamoye Tola</h3>
+                <p>Maa Anandamoye.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="kto.jpeg" alt="">
+            <div class="content">
+                <h3>Lord Khetropal</h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="pool.jpg" alt="">
+            <div class="content">
+                <h3>The paved pool</h3>
+                <p>inside Santiniketan homestay.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="tera.jpg" alt="">
+            <div class="content">
+                <h3>Terracotta plaques</h3>
+                <p>In Sribati.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>a</span>
+        <span>b</span>
+        <span>o</span>
+        <span>u</span>
+        <span>t</span>
+    </h1>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="keshab.png" alt="">
+                    <h3>keshab das</h3>
+                    <p>i am from india,A frontend web developer and a competitive programmer.</p>
+                </div>
+            </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="contact-img.svg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>differents projects</h3>
+            <a href="#">songfy</a>
+            <a href="#">tic tac tou</a>
+            <a href="#">snake game</a>
+            <a href="#">random web</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+        </div>
+        <div class="box">
+            <h3>follow me</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+        <div class="box">
+            <h3>about this page</h3>
+            <p>this is a web page of SINGI village, just about four hours from bardhaman station, is ideal for a tranquil weekend getaway.</p>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span> mr. keshab das </span> || a frontend developer </h1>
+</section>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="script.js"></script>
+</body>
+</html>
